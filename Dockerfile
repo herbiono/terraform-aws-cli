@@ -17,6 +17,6 @@ FROM amazon/aws-cli:latest
 
 COPY --from=builder /tmp/terraform /usr/local/bin/terraform
 
-RUN aws version && terraform version
+RUN aws --version && terraform version
 
 ENTRYPOINT ["terraform"]
