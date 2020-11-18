@@ -5,7 +5,7 @@ WORKDIR /tmp
 
 RUN apk add --no-cache curl
 
-ENV TERRAFORM_VERSION=0.12.24
+ENV TERRAFORM_VERSION=0.13.5
 
 RUN curl https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip -o terraform.zip
 
