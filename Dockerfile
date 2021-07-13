@@ -15,8 +15,8 @@ RUN apk update --no-cache ;\
   ncurses~=6.2 \
   openssh~=8.6 \
   openssl~=1.1.1 \
-  python3 \
-  py3-pip \
+  python3~=3.9.5 \
+  py3-pip~=20.3.4\
   unzip~=6.0 \
   zip~=3.0
 
